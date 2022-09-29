@@ -29,7 +29,7 @@ class _PickScreenState extends State<PickScreen> {
       children: [
         WebView(
           key: _key,
-          initialUrl: 'https://delivery.pick-a.net',
+          initialUrl: 'https://pick-a.matnsolutions.com',
           javascriptMode: JavascriptMode.unrestricted,
           onProgress: (int progress) {
             print('WebView is loading (progress : $progress%)');
