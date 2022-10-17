@@ -1,5 +1,5 @@
+import 'package:dashBoard/pick_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:picka/pick_screen.dart';
 
 void main() {
   runApp(const MyApp());

@@ -24,28 +24,33 @@ class _PickScreenState extends State<PickScreen> {
   final _key = UniqueKey();
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Stack(
-      children: [
-        WebView(
-          key: _key,
-          initialUrl: 'https://pick-a.matnsolutions.com/',
-          javascriptMode: JavascriptMode.unrestricted,
-          onProgress: (int progress) {
-            print('WebView is loading (progress : $progress%)');
-          },
-          onPageFinished: (finish) {
-            setState(() {
-              isLoading = false;
-            });
-          },
-        ),
-        isLoading
-            ? const Center(
-                child: CircularProgressIndicator(),
-              )
-            : Stack(),
-      ],
-    ));
+    return Container(
+      color: Color(0xff160E53),
+      child: SafeArea(
+        child: Scaffold(
+            body: Stack(
+          children: [
+            WebView(
+              key: _key,
+              initialUrl: 'https://dashboard.pick-a.net/',
+              javascriptMode: JavascriptMode.unrestricted,
+              onProgress: (int progress) {
+                print('WebView is loading (progress : $progress%)');
+              },
+              onPageFinished: (finish) {
+                setState(() {
+                  isLoading = false;
+                });
+              },
+            ),
+            isLoading
+                ? const Center(
+                    child: CircularProgressIndicator(),
+                  )
+                : Stack(),
+          ],
+        )),
+      ),
+    );
   }
 }
