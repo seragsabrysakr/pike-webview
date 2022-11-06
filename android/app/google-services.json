@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "666047882754",
+    "project_id": "picka-f0496",
+    "storage_bucket": "picka-f0496.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666047882754:android:2382347a2102b2e66ea91b",
+        "android_client_info": {
+          "package_name": "com.matn.picka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666047882754-1mr05uhqujdhmu5hrjjrame1pgi91qt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matn.picka",
+            "certificate_hash": "be4a40d39aca5cd2c0b0066a017ce383d520e9d3"
+          }
+        },
+        {
+          "client_id": "666047882754-99i2548j2tciv9ogtib7kag1de9a3lk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matn.picka",
+            "certificate_hash": "a7dcbf327822df1997bdd7d1657f2317881c2df7"
+          }
+        },
+        {
+          "client_id": "666047882754-artnnkhpurkuaqd0r8g5ihlldtv9cohs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matn.picka",
+            "certificate_hash": "ab4cdf569db311a6983670e96bcaf94281963dd8"
+          }
+        },
+        {
+          "client_id": "666047882754-ncjph4ua3q1ohflfnk1a9lu1oj4grlkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matn.picka",
+            "certificate_hash": "7df1b39ae5122d7a452acd685a365efdd5a6c6ed"
+          }
+        },
+        {
+          "client_id": "666047882754-pll4v421rva1oo4c6he1qebagmm5rlue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matn.picka",
+            "certificate_hash": "9ba4ce2e433232637ba6f1e500ee40a0c4dec3ab"
+          }
+        },
+        {
+          "client_id": "666047882754-e17cq67llcso16ogv5h2km93f6khc7dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbL9gpqifEvUKIAMRpO8m7-4mFXxtTES0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666047882754-e17cq67llcso16ogv5h2km93f6khc7dk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "666047882754-n8gdfp5vmuvgirq4nd4k0tk0es088cf1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.delivery"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666047882754:android:5f9568e1fb8d03cf6ea91b",
+        "android_client_info": {
+          "package_name": "com.matn.picka.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666047882754-e17cq67llcso16ogv5h2km93f6khc7dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbL9gpqifEvUKIAMRpO8m7-4mFXxtTES0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666047882754-e17cq67llcso16ogv5h2km93f6khc7dk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "666047882754-n8gdfp5vmuvgirq4nd4k0tk0es088cf1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.delivery"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
